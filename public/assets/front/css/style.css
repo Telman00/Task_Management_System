@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+.task {
+    color: black;
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+  background-color: #e9f5ff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.task .nav-link {
+  color: black;
+}
+
+.task .nav-link:hover {
+  color: white;
+  background-color: #495057;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: rgb(174, 171, 171);
+  padding: 20px;
+}
+
+
+
